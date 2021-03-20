@@ -33,6 +33,7 @@
 }
 .middlesection-text {
   font-size: 60px;
+  width: 200px;
   text-align: center;
   margin: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -79,3 +80,29 @@
 /* contacts (sejal) start */
 
 /* contacts (sejal) end  */
+
+@media screen and (max-width: 1016px) {
+  /* why to use? (rohit) start */
+  .WhyToUse {
+    flex-direction: column;
+  }
+  .L-section,
+  .R-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .L-section {
+    order: 2;
+  }
+  .R-section {
+    order: 3;
+  }
+  .point {
+    margin: 25px;
+  }
+  .middle-section {
+    order: 1;
+    align-self: center;
+  }
+  /* why to use? (rohit) end */
+}
