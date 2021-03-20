@@ -20,6 +20,22 @@ body{
     background-color: rgb(54, 54, 54);
     height: 80px;
     margin-top: 0;
+    position: relative;
+}
+
+.photo , .hover-img{
+    width: 200px;
+}
+
+.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity:0;
+}
+
+.logo:hover .photo{
+    opacity: 0;
 }
 
 .navbar h3{
@@ -27,10 +43,34 @@ body{
 }
 
 .logo{
-    padding-top: 10px;
+    /* background: url(../DevSocHackathon/logo.png);
+    width=100px */
+    padding-top: 0px;
     padding-left: 20px;
+    width: 200px;
+    height: 80px;
 }
 
+.logo .photo {
+    /* background: url(../DevSocHackathon/logo.png);
+    width=100px */;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.logo .hover-img{
+    /* background: url(../DevSocHackathon/logo.png);
+    width=100px */
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 200px;
+}
+
+.logo:hover .hover-img{
+    opacity: 1;
+}
 
 .outer-left{
     box-sizing: border-box;
@@ -70,9 +110,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 7% 93%;
-    margin 25px 0;
-    border-bottom: 1.5px solid red;
+    /* margin: 25px 0; */
+    border-bottom: 2px solid #D46463;
 }
+
 
 .outer-left{
     padding-right: 0;
@@ -95,7 +136,31 @@ body{
     border-radius: 30px;
     border: 0px;
     height: 60vh;
-    margin: 5% 2% 0% 40%
+    margin: 5% 2% 0% 40%;
+    flex-direction: row;
+}
+
+a:hover{
+    color:rgba(255, 255, 0, 0.699);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+.skip{
+
+    color: white;
+    text-decoration: none;
+    bottom: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    padding-left: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: #D46463;
 }
 
 .outer-left h2{
@@ -104,6 +169,8 @@ body{
     font-weight: bold;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #D46463;
+    font-style: italic;
+    letter-spacing: 1px;
     
 }
 
@@ -112,7 +179,8 @@ body{
     font-weight: bold;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #D46463;
-    
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 .box input[type="submit"]{
@@ -122,23 +190,46 @@ body{
     border: none;
 }
 
+.box input::placeholder{
+    color: #d3908f;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2PX;
+}
+.box2 input::placeholder{
+    color: #d3908f;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2PX;
+}
+
+/* .box input{
+    background-image: linear-gradient(to top rgb(184, 236, 236) , rgb(160, 245, 245);)
+}
+.box2 input{
+    background-image: linear-gradient(to top rgb(184, 236, 236) , rgb(160, 245, 245);)
+} */
+
+
+
 .button{
-    background-color: #D46463;
+    background-image: linear-gradient(to top, #D46463 ,  #D46463 , #d3908f);
     color: #fff;
     padding: 10px 15px;
     border-radius: 150px;
     border-width: 0;
     box-shadow: yellow;
+    transition: 0.5s;
 }
 
 .outline:hover{
     transform: translatey(-8px);
     transition: 0.5s;
-    box-shadow: darkblue 20px;
 }
 
 .button:hover{
-    border: solid yellow 2px;
+    /* border: solid yellow 2px; */
+        background-image: linear-gradient(to bottom, #D46463 ,  #D46463 , #d3908f);
 }
 
 @media screen and (max-width:1200px){
@@ -149,6 +240,7 @@ body{
         margin-top: 5%;
         margin-bottom: 5%;
         margin-right: 5%;
+        height: fit-content;
     }
 
     .image{
@@ -170,12 +262,22 @@ body{
         justify-content: center;
         padding-bottom: 0%;
         display: flex;
+        font-size: larger;
     }
 
     .outer-right{
         padding-top: 0;
         display: flex;
         justify-content: center;
+        font-size: larger;
+        
         /* padding-left: 150px */
     }
+
+    /* .image{
+
+        position: relative;
+        top:30%;
+        display: flex;
+    } */
 }
