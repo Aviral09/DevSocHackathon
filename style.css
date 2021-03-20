@@ -3,6 +3,108 @@
   box-sizing: border-box;
 }
 /* Home (shlok) start */
+/*NAV START*/
+nav {
+  opacity: 1;
+  background: linear-gradient(to right, #953684, #663983, #463d84, #3a3f84);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  height: 100px;
+  padding: 10px 10px;
+}
+
+.logo {
+  height: 90px;
+  margin-right: auto;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  color: rgb(255, 0, 51);
+  font-size: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+.line {
+  font-size: 30px;
+}
+
+nav button {
+  display: flex;
+  background-color: rgb(226, 37, 78);
+  opacity: 0.5;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-right: 6px;
+  margin-left: 6px;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+nav button:hover {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+/*NAV END*/
+
+/*MAIN START*/
+.main {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-image: url("images/lamp.jfif");
+  background-size: cover;
+}
+
+.upper-img {
+  display: flex;
+  margin-left: auto;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 100px;
+  text-align: center;
+  height: 200px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0;
+  background-image: url("images/2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.lower-img {
+  display: flex;
+  margin-left: auto;
+  height: 240px;
+}
 
 /* Home (shlok) end */
 
@@ -13,6 +115,10 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  background: url(./images/books.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .L-section,
 .R-section {
@@ -31,12 +137,24 @@
   /* height: 900px; */
   width: 200px;
 }
+.middle-section-logo {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(256, 256, 256, 0.8);
+  border-radius: 50%;
+}
 .middlesection-text {
   font-size: 60px;
   width: 200px;
   text-align: center;
-  margin: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 30px;
+  padding: 10px;
+  font-family: monospace;
+  font-weight: bolder;
+  border-radius: 20px;
+  background-color: rgba(256, 256, 256, 0.8);
+  color: black;
 }
 .point {
   display: flex;
@@ -47,25 +165,31 @@
   height: 400px;
   margin: 25px 50px;
   border-radius: 30px;
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(256, 256, 256, 0.8);
+}
+.point-img {
+  height: 125px;
+  width: 125px;
+  margin: 10px 0 0 0;
 }
 .point-title {
-  height: 50px;
+  height: 75px;
   width: 225px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(128, 128, 128, 0.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  margin: 0 10px 0 10px;
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 .point-content {
-  height: 250px;
+  height: 200px;
   width: 225px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(128, 128, 128, 0.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+  color: black;
+  font-family: monospace;
+  font-size: 17px;
 }
 /* why to use? (rohit) end */
 
@@ -103,6 +227,51 @@
   .middle-section {
     order: 1;
     align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .middlesection-text {
+    width: 300px;
   }
   /* why to use? (rohit) end */
 }
+
+/*Shlok's MEDIA*/
+@media screen and (max-width: 750px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+  nav li {
+    display: none;
+  }
+  .logo {
+  }
+  nav button {
+    margin-bottom: 5px;
+  }
+  .line {
+    display: none;
+  }
+  .upper-img,
+  .lower-img {
+    display: none;
+  }
+  .main-title {
+    background-position: top;
+    height: 800px;
+    transition: all 0.5s ease 0s;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main{
+    background: url("images/lamp-mobile.jfif");
+    background-size: cover;
+    transition: all 0.5s ease 0s;
+  }
+}
+/*Shlok's MEDIA END*/
