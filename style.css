@@ -198,6 +198,68 @@ nav button:hover {
 /* how to use? (varun) end */
 
 /* reviews (rohit) start  */
+.review-page {
+  background: url(./images/wall\ for\ stcky\ notes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+  text-align: center;
+}
+.review-head {
+  text-align: center;
+  font-size: 66px;
+}
+.reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  /* width: 1300px; */
+}
+.reviewbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  width: 325px;
+  background: url(./images/sticky\ note2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 25px;
+}
+.reviewer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 275px;
+  margin: 10px 10px 20px 10px;
+}
+.reviewer-image {
+  height: 45px;
+  width: 45px;
+  margin: 0 10px 0 10px;
+  border-radius: 50%;
+}
+.reviewer-name {
+  height: 45px;
+  width: 195px;
+  margin: 0 10px 0 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.review-text {
+  height: 220px;
+  width: 275px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
 
 /* reviews (rohit) end */
 
@@ -268,7 +330,7 @@ nav button:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  .main{
+  .main {
     background: url("images/lamp-mobile.jfif");
     background-size: cover;
     transition: all 0.5s ease 0s;
