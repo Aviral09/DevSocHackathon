@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Home (shlok) start */
+
+/* Home (shlok) end */
+
+/* why to use? (rohit) start  */
+.WhyToUse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.L-section,
+.R-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 900px; */
+  /* width: 450px; */
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 900px; */
+  width: 200px;
+}
+.middlesection-text {
+  font-size: 60px;
+  width: 200px;
+  text-align: center;
+  margin: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 25px 50px;
+  border-radius: 30px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.point-title {
+  height: 50px;
+  width: 225px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+.point-content {
+  height: 250px;
+  width: 225px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+/* why to use? (rohit) end */
+
+/* how to use? (varun) start */
+
+/* how to use? (varun) end */
+
+/* reviews (rohit) start  */
+
+/* reviews (rohit) end */
+
+/* contacts (sejal) start */
+
+/* contacts (sejal) end  */
+
+@media screen and (max-width: 1016px) {
+  /* why to use? (rohit) start */
+  .WhyToUse {
+    flex-direction: column;
+  }
+  .L-section,
+  .R-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .L-section {
+    order: 2;
+  }
+  .R-section {
+    order: 3;
+  }
+  .point {
+    margin: 25px;
+  }
+  .middle-section {
+    order: 1;
+    align-self: center;
+  }
+  /* why to use? (rohit) end */
+}
