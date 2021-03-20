@@ -13,6 +13,10 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  background: url(./images/books.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .L-section,
 .R-section {
@@ -31,12 +35,24 @@
   /* height: 900px; */
   width: 200px;
 }
+.middle-section-logo {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(256, 256, 256, 0.8);
+  border-radius: 50%;
+}
 .middlesection-text {
   font-size: 60px;
   width: 200px;
   text-align: center;
-  margin: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 30px;
+  padding: 10px;
+  font-family: monospace;
+  font-weight: bolder;
+  border-radius: 20px;
+  background-color: rgba(256, 256, 256, 0.8);
+  color: black;
 }
 .point {
   display: flex;
@@ -47,25 +63,31 @@
   height: 400px;
   margin: 25px 50px;
   border-radius: 30px;
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(256, 256, 256, 0.8);
+}
+.point-img {
+  height: 125px;
+  width: 125px;
+  margin: 10px 0 0 0;
 }
 .point-title {
-  height: 50px;
+  height: 75px;
   width: 225px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(128, 128, 128, 0.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  margin: 0 10px 0 10px;
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 .point-content {
-  height: 250px;
+  height: 200px;
   width: 225px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(128, 128, 128, 0.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+  color: black;
+  font-family: monospace;
+  font-size: 17px;
 }
 /* why to use? (rohit) end */
 
@@ -103,6 +125,12 @@
   .middle-section {
     order: 1;
     align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .middlesection-text {
+    width: 300px;
   }
   /* why to use? (rohit) end */
 }
