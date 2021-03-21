@@ -1,9 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-image: url('bg1.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #6ADEDA;
 
 }
@@ -43,8 +40,6 @@ body{
 }
 
 .logo{
-    /* background: url(../DevSocHackathon/logo.png);
-    width=100px */
     padding-top: 0px;
     padding-left: 20px;
     width: 200px;
@@ -52,16 +47,12 @@ body{
 }
 
 .logo .photo {
-    /* background: url(../DevSocHackathon/logo.png);
-    width=100px */;
     padding-top: 10px;
     padding-left: 20px;
     width: 200px;
 }
 
 .logo .hover-img{
-    /* background: url(../DevSocHackathon/logo.png);
-    width=100px */
     margin-top: 0;
     padding-top: 10px;
     padding-left: 40px;
@@ -147,7 +138,6 @@ a:hover{
 }
 
 .skip{
-
     color: white;
     text-decoration: none;
     bottom: 200px;
@@ -161,6 +151,11 @@ a:hover{
     height: 20px;
     width: 100px;
     background-color: #D46463;
+}
+
+.skip:hover{
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .outer-left h2{
@@ -203,15 +198,6 @@ a:hover{
     letter-spacing: 2PX;
 }
 
-/* .box input{
-    background-image: linear-gradient(to top rgb(184, 236, 236) , rgb(160, 245, 245);)
-}
-.box2 input{
-    background-image: linear-gradient(to top rgb(184, 236, 236) , rgb(160, 245, 245);)
-} */
-
-
-
 .button{
     background-image: linear-gradient(to top, #D46463 ,  #D46463 , #d3908f);
     color: #fff;
@@ -228,11 +214,11 @@ a:hover{
 }
 
 .button:hover{
-    /* border: solid yellow 2px; */
         background-image: linear-gradient(to bottom, #D46463 ,  #D46463 , #d3908f);
 }
 
 @media screen and (max-width:1200px){
+
     .outline{
         display: block;
         align-self: center;
@@ -241,10 +227,12 @@ a:hover{
         margin-bottom: 5%;
         margin-right: 5%;
         height: fit-content;
+        /* transition: all 0.3s ease 0s; */
     }
 
     .image{
         display: none;
+        /* transition: all 0.3s ease 0s; */
     }
 }
 @media screen and (max-width:780px){
@@ -257,12 +245,14 @@ a:hover{
         margin-right: 5%;
         padding-top: 10px;
         padding-bottom: 340px;
+            /* transition: all 0.3s ease 0s; */
     }
     .outer-left{
         justify-content: center;
         padding-bottom: 0%;
         display: flex;
         font-size: larger;
+            /* transition: all 0.3s ease 0s; */
     }
 
     .outer-right{
@@ -270,6 +260,7 @@ a:hover{
         display: flex;
         justify-content: center;
         font-size: larger;
+            /* transition: all 0.3s ease 0s; */
         
         /* padding-left: 150px */
     }
