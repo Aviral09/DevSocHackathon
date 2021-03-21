@@ -209,6 +209,7 @@ nav button:hover {
 .review-head {
   text-align: center;
   font-size: 66px;
+  padding-top: 50px;
 }
 .reviews {
   display: flex;
@@ -216,7 +217,7 @@ nav button:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  /* height: 500px; */
   /* width: 1300px; */
 }
 .reviewbox {
@@ -230,7 +231,7 @@ nav button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 25px;
+  margin: 25px 25px 100px 25px;
 }
 .reviewer {
   display: flex;
@@ -298,6 +299,13 @@ nav button:hover {
   }
   /* why to use? (rohit) end */
 }
+@media screen and (max-width: 1142px) {
+  /* review (rohit) start */
+  .reviewbox {
+    margin: 25px;
+  }
+  /* review (rohit) end */
+}
 
 /*Shlok's MEDIA*/
 @media screen and (max-width: 750px) {
@@ -308,8 +316,6 @@ nav button:hover {
   }
   nav li {
     display: none;
-  }
-  .logo {
   }
   nav button {
     margin-bottom: 5px;
