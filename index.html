@@ -76,7 +76,17 @@
     <div id="reviews" class="review-page">
       <div class="review-head">Reviews</div>
       <div class="reviews">
-        <div class="reviewbox">
+        <script>
+          const btn = document.querySelector(".next-button");
+          const page1 = document.querySelector("reviewbox1", "reviewbox2", "reviewbox3");
+          const page2 = document.querySelector("reviewbox4", "reviewbox5", "reviewbox6");
+          btn.addEventListener("click", (e) => {
+            page1.style.display = "none";
+            page2.style.display = "flex";
+            btn.style.transform.rotateZ = "180deg";
+          });
+        </script>
+        <div class="reviewbox1">
           <div class="reviewer">
             <div class="reviewer-image">
               <a href="https://www.linkedin.com/in/rohit-kodam-b81b95204/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/rohit img.jpg" alt="" /></a>
@@ -85,7 +95,7 @@
           </div>
           <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis iure, repudiandae voluptatibus inventore atque totam nam molestiae libero velit.</div>
         </div>
-        <div class="reviewbox">
+        <div class="reviewbox2">
           <div class="reviewer">
             <div class="reviewer-image">
               <a href="https://www.linkedin.com/in/aviral-kumar-goel/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/aviral img.jfif" alt="" /></a>
@@ -94,7 +104,7 @@
           </div>
           <div class="review-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia dolores necessitatibus totam maiores fuga hic id et voluptate perspiciatis?</div>
         </div>
-        <div class="reviewbox">
+        <div class="reviewbox3">
           <div class="reviewer">
             <div class="reviewer-image">
               <a href="https://www.linkedin.com/in/naman-markhedkar-613984113/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/naman img.jfif" alt="" /></a>
@@ -103,6 +113,34 @@
           </div>
           <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis expedita eaque qui cumque atque porro itaque maiores quidem ullam!</div>
         </div>
+        <div class="reviewbox4">
+          <div class="reviewer">
+            <div class="reviewer-image">
+              <a href="https://www.linkedin.com/in/naman-markhedkar-613984113/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/naman img.jfif" alt="" /></a>
+            </div>
+            <div class="reviewer-name">Varun Gopal</div>
+          </div>
+          <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis expedita eaque qui cumque atque porro itaque maiores quidem ullam!</div>
+        </div>
+        <div class="reviewbox5">
+          <div class="reviewer">
+            <div class="reviewer-image">
+              <a href="https://www.linkedin.com/in/naman-markhedkar-613984113/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/naman img.jfif" alt="" /></a>
+            </div>
+            <div class="reviewer-name">Shlok Sinha</div>
+          </div>
+          <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis expedita eaque qui cumque atque porro itaque maiores quidem ullam!</div>
+        </div>
+        <div class="reviewbox6">
+          <div class="reviewer">
+            <div class="reviewer-image">
+              <a href="https://www.linkedin.com/in/naman-markhedkar-613984113/" target="_blank"><img style="border-radius: 50%" width="45px" height="45px" src="./images/naman img.jfif" alt="" /></a>
+            </div>
+            <div class="reviewer-name">Sejal Sarada</div>
+          </div>
+          <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis expedita eaque qui cumque atque porro itaque maiores quidem ullam!</div>
+        </div>
+        <img width="100px" class="next-button" src="./images/Next arrow.png" alt="" />
       </div>
     </div>
 
