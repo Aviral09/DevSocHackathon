@@ -78,22 +78,32 @@
       <div class="review-head">Reviews</div>
       <div class="reviews">
         <script>
-          const btn = document.querySelector(".next-button");
-          const page1 = document.querySelector(".reviewbox1", ".reviewbox2", ".reviewbox3");
-          const page2 = document.querySelector(".reviewbox4", ".reviewbox5", ".reviewbox6");
-          const n = 0;
-          btn.addEventListener("click", (e) => {
+          var n = 0;
+          function myFunction() {
+            let btn = document.querySelector(".next-button");
+            let box1 = document.querySelector(".reviewbox1");
+            let box2 = document.querySelector(".reviewbox2");
+            let box3 = document.querySelector(".reviewbox3");
+            let box4 = document.querySelector(".reviewbox4");
+            let box5 = document.querySelector(".reviewbox5");
+            let box6 = document.querySelector(".reviewbox6");
             n++;
             if (n % 2 === 1) {
-              page1.style.display = "none";
-              page2.style.display = "flex";
-              btn.style.transform.rotateZ = "180deg";
+              box1.style.display = "none";
+              box2.style.display = "none";
+              box3.style.display = "none";
+              box4.style.display = "flex";
+              box5.style.display = "flex";
+              box6.style.display = "flex";
             } else {
-              page1.style.display = "flex";
-              page2.style.display = "none";
-              btn.style.transform.rotateZ = "180deg";
+              box1.style.display = "flex";
+              box2.style.display = "flex";
+              box3.style.display = "flex";
+              box4.style.display = "none";
+              box5.style.display = "none";
+              box6.style.display = "none";
             }
-          });
+          }
         </script>
         <div class="reviewbox1">
           <div class="reviewer">
@@ -149,22 +159,24 @@
           </div>
           <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis expedita eaque qui cumque atque porro itaque maiores quidem ullam!</div>
         </div>
-        <img width="100px" class="next-button" src="./images/Next arrow.png" alt="" />
+        <button style="background: none; border: 0" onclick="myFunction()"><img width="100px" class="next-button" src="./images/Next arrow.png" alt="" /></button>
       </div>
     </div>
 
     <!-- reviews (rohit) end -->
 
     <!-- contacts (sejal) start -->
-    
+
     <footer id="main-footer">
-        <div class="Heading">
-          <ul>
-            <li><img width="90" src="images/Study with me logo.png" /></li>
-            <div class="heading-2"><li><h1>Study With Me</h1></li></div>
-          </ul>
-        </div>
-        
+      <div class="Heading">
+        <ul>
+          <li><img width="90" src="images/Study with me logo.png" /></li>
+          <div class="heading-2">
+            <li><h1>Study With Me</h1></li>
+          </div>
+        </ul>
+      </div>
+
       <!--  
         <div class="Support">
           <ul>
@@ -173,48 +185,58 @@
             <div class="support-3"><li><img width="100" height="100" src="images/BITSlogo.png" ></li></div>         
           </ul>
         </div>
-      --> 
-        
-        <div class="Footer-links">
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li>|</li>
-            <li><a href="#">Community</a></li>
-            <li>|</li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li>|</li>
-            <li><a href="#">FAQs</a></li>
-            <li>|</li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </div>
-        
-        <div class="recog-main">
-           <ul>
-             <li><a href="#"><img width="90" src="images/FBFinalLogo.png"></a></li>
-            <li><a href="#"><img width="90" src="images/insta.jpg"></a></li>
-            <li><a href="#"><img width="90" src="images/TwitterLogo.png"></a></li>
-            <li><a href="#"><img width="95" src="images/finallinkedinlogo.png"></a></li>
-            <li><a href="#"><img width="100" src="images/googlepluslogo.png"></a></li>
-          </ul>
-        </div>
-      </footer>    
+      -->
 
-        <div class="recog-side">
-          <div class="dev"><h3>Designed & Developed by:</h3></div>
-          <ul>
-            <li>Aviral Goel</li>
-            <li>Rohit Kodam</li>
-            <li>Naman Ajay Markhedkar</li>
-            <li>Shlok Sinha</li>
-            <li>Varun Gopal</li>
-            <li>Sejal Sarada</li>
-          </ul> 
-        </div>
-      
-      <section id="TOP">
-        <a href="#">⇧ ⇮ ⇧ Scroll to Top ⇧ ⇮ ⇧</a>
-      </section>          
+      <div class="Footer-links">
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li>|</li>
+          <li><a href="#">Community</a></li>
+          <li>|</li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li>|</li>
+          <li><a href="#">FAQs</a></li>
+          <li>|</li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="recog-main">
+        <ul>
+          <li>
+            <a href="#"><img width="90" src="images/FBFinalLogo.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img width="90" src="images/insta.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img width="90" src="images/TwitterLogo.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img width="95" src="images/finallinkedinlogo.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img width="100" src="images/googlepluslogo.png" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="recog-side">
+      <div class="dev"><h3>Designed & Developed by:</h3></div>
+      <ul>
+        <li>Aviral Goel</li>
+        <li>Rohit Kodam</li>
+        <li>Naman Ajay Markhedkar</li>
+        <li>Shlok Sinha</li>
+        <li>Varun Gopal</li>
+        <li>Sejal Sarada</li>
+      </ul>
+    </div>
+
+    <section id="TOP">
+      <a href="#">⇧ ⇮ ⇧ Scroll to Top ⇧ ⇮ ⇧</a>
+    </section>
 
     <!-- contacts (sejal) end  -->
   </body>
