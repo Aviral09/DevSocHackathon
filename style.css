@@ -435,7 +435,7 @@ nav button:hover {
 }
 
 /*Shlok's MEDIA*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 970px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -446,7 +446,7 @@ nav button:hover {
   }
   nav button {
     margin-bottom: 5px;
-  }
+}
   .line {
     display: none;
   }
