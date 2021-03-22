@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences</title>
+    <link rel="stylesheet" href="filter_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="../DevSocHackathon/images/Study with me logo.png" alt="logo" width="80"></a>
+            </div>
+            </nav>
+            <div class="content">
+                <div class="heading">
+                    <h3>Enter your Preferences</h3>
+                </div>
+                <div class="filters">
+                    <form class="my-form">
+                        <div class="box1">
+                            <label>Nickname</label>
+                            <input type="text" name="Name" placeholder="Enter nickname which should be displayed">
+                        </div>
+                        <div class="box2">
+                            <label>Gender</label>
+                            <br>
+                            
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label>Male</label>
+                            <br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label>Female</label>
+                            <br>
+                            <input type="radio" id="random" name="gender" value="random">
+                            <label>Random</label>
+                        </div>
+                        <div class="box3">
+                            <label>Subject:</label>
+                            <div class="dropdown">
+                                <button class="choice">Choose Topic</button>
+                                
+                                <div class="dropdown-menu">
+                                    <p><a href="#">1.</a></p>
+                                    <p><a href="#">2.</a></p>
+                                    <p><a href="#">3.</a></p>
+                                    <p><a href="#">4.</a></p>
+                                    <p><a href="#">5.</a></p>
+                                    <p><a href="#">6.</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box3">
+                            <label>Language</label>
+                            <input type="text" id="lang" name="lang" placeholder="Enter preferred language of communication">
+                        </div>
+                        <div class="box4">
+                            <label>Choose your study time</label>
+                            <div class="dropdown2">
+                                <button class="choice_time">Choose Time</button>
+                            
+                                <div class="dropdown-time">
+                                    <p><a href="#">1.</a></p>
+                                    <p><a href="#">2.</a></p>
+                                    <p><a href="#">3.</a></p>
+                                    <p><a href="#">4.</a></p>
+                                    <p><a href="#">5.</a></p>
+                                    <p><a href="#">6.</a></p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submission">
+                            <input class="next" type="submit" name="submit" value="Next">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
