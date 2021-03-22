@@ -201,6 +201,50 @@ nav button:hover {
 /* why to use? (rohit) end */
 
 /* how to use? (varun) start */
+.features-varun{
+  background-color: rgb(248, 246, 185);
+}
+
+.features{
+  display:flex;
+  flex-wrap:nowrap ;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.features-img{
+  flex-grow:1;
+}
+.feature-txt{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-direction:column;
+  justify-content:space-around;
+  flex-grow:1;
+}
+.features-heading{
+  font-size:400%;
+  padding-top:10px;
+  padding-left:20px;
+  font-family:cursive;
+  
+
+}
+.features-body{  
+  font-size:150%;
+  padding-left:8%;
+  padding-right:10%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold
+
+}
+
+@media(max-width:731 px){
+  .features{
+      display:flex;
+      flex-direction:column;
+  }  
+
+}
 
 /* how to use? (varun) end */
 
