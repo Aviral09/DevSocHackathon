@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-signin-client_id" content="892311556083-dmnre8122httolm84kdurit8gom2go2c.apps.googleusercontent.com" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link rel="stylesheet" href="login_styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet" />
@@ -30,7 +32,8 @@
             <div class="box">
               <input type="password" name="Password" placeholder="Password" />
             </div>
-            <input class="button" type="submit" name="Login" value="Login" />
+            <div class="login-button"><input class="button" type="submit" name="Login" value="Login" /></div>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
           </form>
         </div>
         <div class="outer-right">
