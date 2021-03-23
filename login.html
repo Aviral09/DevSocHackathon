@@ -57,5 +57,13 @@
         <div class="skip"><a href="../DevSocHackathon/filters.html">Skip for now</a></div>
       </div>
     </div>
+    <script>
+      function onSignIn(googleUser) {
+        var id_token = googleUser.getAuthResponse().id_token;
+        postAJAX("/server/sign-in", { id_token: id_token }).then(function (user) {
+          document.location.hostname = "https://aviralgoel.me/DevSocHackathon/filters.html";
+        });
+      }
+    </script>
   </body>
 </html>
