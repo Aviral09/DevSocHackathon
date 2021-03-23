@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login_styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-signin-client_id" content="892311556083-dmnre8122httolm84kdurit8gom2go2c.apps.googleusercontent.com" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="login_styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet" />
     <title>Login/Sign Up</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="image">
-        <img src="../DevSocHackathon/images/bgimg.png" width="600px" alt="Students studying Together">
+      <img src="./images/bgimg.png" width="600px" alt="Students studying Together" />
     </div>
     <div class="container">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html"><img class="photo" src="../DevSocHackathon/images/logo.png" alt="logo"></a>
-                <a href="index.html"><img class="hover-img" src="../DevSocHackathon/images/logo_hover.png" id="light" alt="logo"></a>
-            </div>
-        </nav>
-        <div class="outline">
-            <div class="outer-left">
-                <h2>Login</h2>
-                <form class="login">
-                    <div class="box">
-                        
-                        <input type="email" name="email" placeholder="E-mail ID">
-                    </div>
-                    <div class="box">
-                        
-                        <input type="password" name="Password" placeholder="Password">
-                    </div>
-                    <input class="button" type="submit" name="Login" value="Login">
-                </form>
-            </div>
-            <div class="outer-right">
-                <h2>Sign Up</h2>
-                <form class="login">
-                    <div class="box2">
-                        
-                        <input type="text" name="name" placeholder="Full Name">
-
-                    </div>
-                    <div class="box2">
-                        
-                        <input type="email" name="email" placeholder="E-mail ID">
-                    </div>
-                    <div class="box">
-                    
-                        <input type="password" name="Password" placeholder="Enter Password">
-                    </div>
-                    <div class="box">
-                    
-                        <input type="password" name="Password" placeholder="Confirm Password">
-                    </div>
-                    <input class="button" type="submit" name="SignUp" value="Sign Up">
-                </form>
-            </div>
-            <div class="skip"><a href="#">Skip for now</a></div>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img class="photo" src="./images/logo.png" alt="logo" /></a>
+          <a href="index.html"><img class="hover-img" src="./images/logo_hover.png" id="light" alt="logo" /></a>
         </div>
+      </nav>
+      <div class="outline">
+        <div class="outer-left">
+          <h2>Login</h2>
+          <form class="login">
+            <div class="box">
+              <input type="email" name="email" placeholder="E-mail ID" />
+            </div>
+            <div class="box">
+              <input type="password" name="Password" placeholder="Password" />
+            </div>
+            <div class="login-button"><input class="button" type="submit" name="Login" value="Login" /></div>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          </form>
+        </div>
+        <div class="outer-right">
+          <h2>Sign Up</h2>
+          <form class="login">
+            <div class="box2">
+              <input type="text" name="name" placeholder="Full Name" />
+            </div>
+            <div class="box2">
+              <input type="email" name="email" placeholder="E-mail ID" />
+            </div>
+            <div class="box">
+              <input type="password" name="Password" placeholder="Enter Password" />
+            </div>
+            <div class="box">
+              <input type="password" name="Password" placeholder="Confirm Password" />
+            </div>
+            <input class="button" type="submit" name="SignUp" value="Sign Up" />
+          </form>
+        </div>
+        <div class="skip"><a href="../DevSocHackathon/filters.html">Skip for now</a></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
