@@ -6,6 +6,8 @@
     <title>Preferences</title>
     <link rel="stylesheet" href="filter_style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -25,7 +27,7 @@
                             <input type="text" name="Name" placeholder="Enter nickname which should be displayed">
                         </div>
                         <div class="box2">
-                            <label>Gender</label>
+                            <label>Gender Preference</label><lh6 class="subtext">  (Of other person with whom you would like to study)</lh6>
                             <br>
                             
                             <input type="radio" id="male" name="gender" value="male">
@@ -35,13 +37,12 @@
                             <label>Female</label>
                             <br>
                             <input type="radio" id="random" name="gender" value="random">
-                            <label>Random</label>
+                            <label>Any</label>
                         </div>
                         <div class="box3">
                             <label>Subject:</label>
                             <div class="dropdown">
                                 <button class="choice">Choose Topic</button>
-                                
                                 <div class="dropdown-menu">
                                     <p><a href="#">1.</a></p>
                                     <p><a href="#">2.</a></p>
@@ -75,6 +76,10 @@
                         </div>
                         <div class="submission">
                             <input class="next" type="submit" name="submit" value="Next">
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" name="agree" required="required">
+                            <span>I Agree to the Website's <a href="#">Terms and Conditions</a>.</span>
                         </div>
                     </form>
                 </div>
