@@ -57,13 +57,13 @@
         <div class="skip"><a href="../DevSocHackathon/filters.html">Skip for now</a></div>
       </div>
     </div>
+
     <script>
-      function onSignIn(googleUser) {
-        var id_token = googleUser.getAuthResponse().id_token;
-        postAJAX("/server/sign-in", { id_token: id_token }).then(function (user) {
-          document.location.hostname = "https://aviralgoel.me/DevSocHackathon/filters.html";
+      window.onLoadCallback = function () {
+        gapi.auth2.init({
+          client_id: "filler_text_for_client_id.apps.googleusercontent.com",
         });
-      }
+      };
     </script>
   </body>
 </html>
