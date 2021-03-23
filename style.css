@@ -332,55 +332,60 @@ nav button:hover {
   color: white;
 }
 #main-footer{
-  background: linear-gradient(to right, #953684, #663983, #463d84, #3a3f84);
+  background: linear-gradient(to left, #953684, #663983, #463d84, #3a3f84);
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-left: 1em;
-  font-size: 85%;
+  font-size: 100%;
 }
 
 .footer-link-gap{
   height: 15px;
 }
 .footer-link-contact-gap{
-  height:5px;
+  height:10px;
 }
 
 .footer-heading{
   padding:0.3em;
+  padding-top: 0;
   padding-left: 1em;
   padding-right: 1.6em;
   margin-right:1.6em;
   text-align: center;
   background-color: white;
   opacity: 50%;
-  height:29px;
+  height:30px;
   color: black;
 }
 
 .footer-links{
   display:flex ;
+  font-family: monospace;
 }
 
 #About{
   padding:0 1em;
   border-right: 2px solid white;
   margin-right: 20px;
-  min-height: 180px;
+  min-height: 190px;
+  text-align: center;
 }
-#About ul{
+.about2 ul{
   list-style: none;
+  text-align: center;
 }
-#About li{
+.about2 li{
   display: inline-block;
   list-style: none;
 }
 
 #Contact{
-  border-right: 2px solid white;
+  /*border-right: 2px solid white;*/
   padding-right: 20px;
   margin-right: 20px;
-  min-height: 180px;
+  min-height: 190px;
+  text-align: center;
 }
 
 #Contact ul{
@@ -389,7 +394,9 @@ nav button:hover {
 }
 
 #Follow{
-  min-height: 180px;
+  min-height: 195px;
+  text-align: center;
+  border-left: 2px solid white;
 }
 #Follow ul{
   list-style: none;
@@ -402,7 +409,6 @@ nav button:hover {
 
 .footer-end{
   text-align: center;
-
 }
 
 /* contacts (sejal) end  */
