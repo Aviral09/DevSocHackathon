@@ -201,15 +201,18 @@ nav button:hover {
 /* why to use? (rohit) end */
 
 /* how to use? (varun) start */
+
 .howtouse{
   margin:0;
   box-sizing: border-box;
   background-image: url(./images/studytogether.jpg);
    background-position:center;
  
+
 }
  
 .howtouse div{
+
 
 }
 .howtouse_heading{
@@ -239,11 +242,14 @@ nav button:hover {
 }
 .step1{
 
+
 }
 .step2{
 
+
 }
 .step3{
+
 
 }
 
@@ -330,114 +336,81 @@ nav button:hover {
 
 /* contacts (sejal) start */
 
-#main-footer{
-  opacity: 1;
+#Contact a {
+  text-decoration: none;
+  color: white;
+}
+#main-footer {
   background: linear-gradient(to right, #953684, #663983, #463d84, #3a3f84);
-  font-family: 'Times New Roman', Times, serif;
-  color:black;
-  padding-top: 0.2em;
-  float:left;
-  width:85%;
-  min-height:280px;
-  padding-left: 0;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 1em;
+  font-size: 85%;
 }
-.Heading{
-  position:relative;
+
+.footer-link-gap {
+  height: 15px;
+}
+.footer-link-contact-gap {
+  height: 5px;
+}
+
+.footer-heading {
+  padding: 0.3em;
+  padding-left: 1em;
+  padding-right: 1.6em;
+  margin-right: 1.6em;
+  text-align: center;
+  background-color: white;
+  opacity: 50%;
+  height: 29px;
   color: black;
-  font-size: 15px;
-  font-weight: bolder;
-  font-family: "Roboto", sans-serif;
 }
-.Heading ul{
-  padding-top: 10;
-  margin-bottom:25px;
+
+.footer-links {
+  display: flex;
+}
+
+#About {
+  padding: 0 1em;
+  border-right: 2px solid white;
+  margin-right: 20px;
+  min-height: 180px;
+}
+#About ul {
   list-style: none;
 }
-.Heading li{
+#About li {
+  display: inline-block;
+  list-style: none;
+}
+
+#Contact {
+  border-right: 2px solid white;
+  padding-right: 20px;
+  margin-right: 20px;
+  min-height: 180px;
+}
+
+#Contact ul {
+  list-style: none;
+  padding: 0 0.2em;
+}
+
+#Follow {
+  min-height: 180px;
+}
+#Follow ul {
+  list-style: none;
+  padding: 0 0.2em;
+}
+#Follow li {
+  list-style: none;
   display: inline-block;
 }
-.heading-2{
-  position:absolute;
-  top:30px;
-  left:150px;
-}
-.Footer-links{
-  font-size: 21px;
-  margin-left: 15px;
-  padding-top: 0;
-}
-.Footer-links ul{
-  padding:0;
-  list-style: none;
-}
-.Footer-links li{
-  display:inline;
-  padding-right: 40px;
-  padding-left: 40px;
-}
-.Footer-links li a{
-  color:black;
-  text-decoration: none;
-}
-.Footer-links li a:hover{
-  color:white;
-  cursor: pointer;
-}
-.recog-main{
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left: 50px;
-}
-.recog-main ul{
-  padding:0;
-  list-style:none;
-}
-.recog-main li{
-  display:inline-block;
-  padding-right: 130px;
-}
-.recog-main a:hover{
- background-color: white;
-}
-.recog-side{
-  font-family: 'Times New Roman', Times, serif;
-  padding-top: 50px;
-  background-color: black;
-  background-image: url('images/5.png');
-  background-position: bottom;
-  color: white;
-  float:right;
-  width:15%;
-  min-height:280px;
-  text-align: center;
-  box-sizing: border-box;
-  text-overflow: hidden;
-}
-.dev{
-  padding-bottom:10px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.recog-side ul{
-  list-style: none;
-  padding: 0;
-  padding-top:10px;
-}
-.recog-side li{
-  padding-bottom:4px;
-}
-#TOP{
-  text-align: center;
-  background-color: lightsteelblue; 
-  color: white;
-  font-size: x-large;
-}
-#TOP a{
-  text-decoration: none;
 
-}
-#TOP a:hover{
-  background-color:linear-gradient(to right, #953684, #663983, #463d84, #3a3f84); 
+.footer-end {
+  text-align: center;
 }
 
 /* contacts (sejal) end  */
@@ -473,6 +446,7 @@ nav button:hover {
   }
   /* why to use? (rohit) end */
 }
+
 @media screen and (max-width: 1142px) {
   /* review (rohit) start */
   .reviewbox {
@@ -493,7 +467,7 @@ nav button:hover {
   }
   nav button {
     margin-bottom: 5px;
-}
+  }
   .line {
     display: none;
   }
