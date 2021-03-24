@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-signin-client_id" content="892311556083-dmnre8122httolm84kdurit8gom2go2c.apps.googleusercontent.com" />
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js?onload=initgapi" async defer></script>
     <link rel="stylesheet" href="login_styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet" />
@@ -57,5 +57,15 @@
         <div class="skip"><a href="../DevSocHackathon/filters.html">Skip for now</a></div>
       </div>
     </div>
+
+    <script>
+      function initgapi() {
+        gapi.auth2.init({
+          client_id: "892311556083-dmnre8122httolm84kdurit8gom2go2c.apps.googleusercontent.com",
+          ux_mode: "redirect",
+          redirect_uri: "https://aviralgoel.me/DevSocHackathon/filters.html",
+        });
+      }
+    </script>
   </body>
 </html>
