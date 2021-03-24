@@ -116,6 +116,9 @@ body {
   display: inline-flex;
   margin-right: 0;
 }
+.login-button {
+  margin-bottom: 20px;
+}
 
 .outer-right {
   padding-right: 0;
@@ -263,7 +266,6 @@ a:hover {
     font-size: larger;
     /* transition: all 0.3s ease 0s; */
   }
-
   .outer-right {
     padding-top: 0;
     display: flex;
