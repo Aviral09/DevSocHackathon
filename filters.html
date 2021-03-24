@@ -13,7 +13,7 @@
     <div class="container">
         <nav class="navbar">
             <div class="logo">
-                <a href="#"><img src="../DevSocHackathon/images/Study with me logo.png" alt="logo" width="80"></a>
+                <a href="https://aviralgoel.me/DevSocHackathon/index.html"><img src="./images/Study with me logo.png" alt="logo" width="80"></a>
             </div>
             </nav>
             <div class="content">
@@ -27,7 +27,7 @@
                             <input type="text" name="Name" placeholder="Enter nickname which should be displayed">
                         </div>
                         <div class="box2">
-                            <label>Gender Preference</label><lh6 class="subtext">  (Of other person with whom you would like to study)</lh6>
+                            <label>Gender Preference</label><h6 class="subtext">  (Of other person with whom you would like to study)</h6>
                             <br>
                             
                             <input type="radio" id="male" name="gender" value="male">
@@ -41,38 +41,31 @@
                         </div>
                         <div class="box3">
                             <label>Subject:</label>
-                            <div class="dropdown">
-                                <button class="choice">Choose Topic</button>
-                                <div class="dropdown-menu">
-                                    <p><a href="#">1.</a></p>
-                                    <p><a href="#">2.</a></p>
-                                    <p><a href="#">3.</a></p>
-                                    <p><a href="#">4.</a></p>
-                                    <p><a href="#">5.</a></p>
-                                    <p><a href="#">6.</a></p>
-                                    
-                                </div>
-                            </div>
+                            <select name="subject" id="choice_subject">
+                                <option value="Any">Choose Any Subject</option><option value="Physics">Physics</option>
+                                <option value="Maths">Maths</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Social Science">Social Science</option>
+
+                            </select>
                         </div>
-                        <div class="box3">
+                        <div class="box4">
                             <label>Language</label>
                             <input type="text" id="lang" name="lang" placeholder="Enter preferred language of communication">
                         </div>
-                        <div class="box4">
+                        <div class="box5">
                             <label>Choose your study time</label>
-                            <div class="dropdown2">
-                                <button class="choice_time">Choose Time</button>
-                            
-                                <div class="dropdown-time">
-                                    <p><a href="#">1.</a></p>
-                                    <p><a href="#">2.</a></p>
-                                    <p><a href="#">3.</a></p>
-                                    <p><a href="#">4.</a></p>
-                                    <p><a href="#">5.</a></p>
-                                    <p><a href="#">6.</a></p>
-                            
-                                </div>
-                            </div>
+                            <select name="subject" id="choice_time">
+                                <option value="Any">Choose Any Time</option>
+                                <option value="9:00AM">9:00AM</option>
+                                <option value="10:00AM">10:00AM</option>
+                                <option value="11:00AM">11:00AM</option>
+                                <option value="12:00PM">12:00PM</option>
+                                <option value="1:00PM">1:00PM</option>
+                                <option value="2:00PM">2:00PM</option>
+                            </select>
                         </div>
                         <div class="submission">
                             <input class="next" type="submit" name="submit" value="Next">
