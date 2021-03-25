@@ -204,6 +204,16 @@ a:hover {
   letter-spacing: 2px;
 }
 
+.bitsmail{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  outline-width: .5px solid black;
+  outline-color: black;
+  outline-style: double;
+  outline-offset: 0em;
+  background-color: #000;
+}
+
 .button {
   background-image: linear-gradient(to top, #d46463, #d46463, #d3908f);
   color: #fff;
