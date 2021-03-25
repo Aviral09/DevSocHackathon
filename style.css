@@ -349,7 +349,7 @@ nav button:hover {
   padding-top: 0;
   padding-left: 1em;
   padding-right: 1.6em;
-  margin-right: 1.6em;
+  margin-right: 1em;
   text-align: center;
   background-color: white;
   opacity: 50%;
@@ -381,7 +381,7 @@ nav button:hover {
 #Contact{
   /*border-right: 2px solid white;*/
   padding-right: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   min-height: 190px;
   text-align: center;
 }
@@ -407,6 +407,9 @@ nav button:hover {
 
 .footer-end {
   text-align: center;
+}
+.icons-gap{
+  padding:0 0.5em;
 }
 
 /* contacts (sejal) end  */
@@ -487,3 +490,30 @@ nav button:hover {
   }
 }
 /*Shlok's MEDIA END*/
+
+/*Sejal's MEDIA START*/
+@media screen and (max-width: 1016px){
+  
+  #main-footer{
+    padding-left: 1em;
+    font-size: 70%;
+  }
+  
+  .footer-link-gap {
+    height: 12px;
+  }
+
+  .footer-link-contact-gap{
+    height:7px;
+  }
+  
+  .footer-heading{
+    height:20px;
+  }
+
+  .logos{
+    width:70px;
+    height:70px;
+  }
+}
+/*Sejal's MEDIA END*/
