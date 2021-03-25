@@ -168,7 +168,6 @@ body {
   float: left;
 }
 
-
 @media screen and (max-width: 555px) {
   .box1 {
     padding-bottom: 15px;
