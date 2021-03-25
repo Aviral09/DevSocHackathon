@@ -235,9 +235,8 @@ nav button:hover {
 .howtouse {
   background-image: url(./images/studytogether.jpg);
   background-position: center;
-}
-
-.howtouse div {
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 .howtouse_heading {
   padding: 3%;
@@ -277,15 +276,17 @@ a.howtouselink:hover {
   font-size: 30px;
   font-weight: bold;
 }
-.step1_body {
+.step1_body,.step2_body,.step3_body {
   text-align: center;
   font-size: 20px;
   font-weight: 900;
 }
-.step2 {
+@media screen and (max-width:700px){
+  .howtouse_body{
+    flex-direction: column;
+  }
 }
-.step3 {
-}
+
 
 /* how to use? (varun) end */
 
