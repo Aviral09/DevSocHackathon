@@ -70,9 +70,9 @@ $ cd DevSocHackathon
 
 ## Individual Contribution
 **Aviral Kumar Goel** - Guidance and Merging pull request on Github<br />
-**Rohit Kodam** - Why To Use ?, Reviews, Sytling of filters/preferences<br />
+**Rohit Kodam** - Why To Use ?, Reviews, Styling of filters/preferences<br />
 **Naman Ajay Markhedkar** - Login, Filter/Preferences<br />
-**Shlok Sinha** - Navbar, Homepage, Sytling of filters/preferences<br />
+**Shlok Sinha** - Navbar, Homepage, Styling of filters/preferences<br />
 **Varun Gopal** - How To Use<br />
 **Sejal Sarada** - Footer, ReadMe<br />
 
