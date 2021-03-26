@@ -4,20 +4,22 @@
 }
 
 body {
-  background-color: peachpuff;
+  background-color: #1E405D;
   padding: 0;
   margin: 0;
   background-image: url(./images/bg5.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .container {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 1005;
-}
+  width: 100%;
+  padding-bottom:300px;
 
+}
 .navbar {
   background: linear-gradient(90deg, #755bea, #ff72c0);
   height: 80px;
@@ -43,6 +45,7 @@ body {
   display: flex;
   position: relative;
   border: solid #0162c8 2px;
+  
 }
 
 .heading {
@@ -76,6 +79,7 @@ body {
   padding-right: 20px;
   display: block;
   line-height: 1.8em;
+  
 }
 
 .box1 {
@@ -176,8 +180,11 @@ body {
 }
 
 @media screen and (max-width: 780px) {
+
+
   .next {
-    float: left;
+    float: right;
+    margin-bottom: 10px;
   }
 
   .content {
