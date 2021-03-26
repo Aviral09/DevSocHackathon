@@ -12,6 +12,8 @@ Study With Me is a platform for students to come together to learn, interact and
 - [Installation 🐣](#installation)
 - [Contribution Guidelines ✒](#contribution-guidelines)
 - [How to use ?](#how-to-use?)
+- [Current Implementations](#current-implementations)
+- [Future Implementations](#future-implementations)
 - [Individual Contribution ☕](#individual-contribution)
 
 ## Quick Start
