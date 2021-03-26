@@ -235,8 +235,8 @@ nav button:hover {
 .howtouse {
   background-image: url(./images/studytogether.jpg);
   background-position: center;
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .howtouse_heading {
   padding: 3%;
@@ -276,17 +276,18 @@ a.howtouselink:hover {
   font-size: 30px;
   font-weight: bold;
 }
-.step1_body,.step2_body,.step3_body {
+.step1_body,
+.step2_body,
+.step3_body {
   text-align: center;
   font-size: 20px;
   font-weight: 900;
 }
-@media screen and (max-width:700px){
-  .howtouse_body{
+@media screen and (max-width: 700px) {
+  .howtouse_body {
     flex-direction: column;
   }
 }
-
 
 /* how to use? (varun) end */
 
@@ -362,7 +363,7 @@ a.howtouselink:hover {
   height: 220px;
   width: 275px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 1142px) {
@@ -464,8 +465,8 @@ a.howtouselink:hover {
 .footer-end {
   text-align: center;
 }
-.icons-gap{
-  padding:0 0.5em;
+.icons-gap {
+  padding: 0 0.5em;
 }
 
 /* contacts (sejal) end  */
@@ -508,28 +509,27 @@ a.howtouselink:hover {
 /*Shlok's MEDIA END*/
 
 /*Sejal's MEDIA START*/
-@media screen and (max-width: 1016px){
-  
-  #main-footer{
+@media screen and (max-width: 1016px) {
+  #main-footer {
     padding-left: 1em;
     font-size: 70%;
   }
-  
+
   .footer-link-gap {
     height: 12px;
   }
 
-  .footer-link-contact-gap{
-    height:7px;
-  }
-  
-  .footer-heading{
-    height:20px;
+  .footer-link-contact-gap {
+    height: 7px;
   }
 
-  .logos{
-    width:70px;
-    height:70px;
+  .footer-heading {
+    height: 20px;
+  }
+
+  .logos {
+    width: 70px;
+    height: 70px;
   }
 }
 /*Sejal's MEDIA END*/
