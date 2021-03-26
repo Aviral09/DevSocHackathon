@@ -65,7 +65,7 @@ $ cd DevSocHackathon
 3. Integrated Google Signin button has been implemented.
 
 ## Future Implementations
-1. Redirecting to next page after Google Signin is complete and implementing signInWithRedirect.
+1. Redirecting to next page after Google Signin is complete and implementing signInWithRedirect rather than signinWithPopup.
 2. Backend with database to get the user input preference and matching up with study-partner with desired preferences.
 3. Implementing API to get them connected to online meeting services like Google Meet. 
 
