@@ -4,18 +4,19 @@
 }
 
 body {
-  background-color: peachpuff;
+  background-color: #1E405D;
   padding: 0;
   margin: 0;
   background-image: url(./images/bg5.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .container {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 1005;
+  width: 100%;
 }
 
 .navbar {
@@ -176,8 +177,11 @@ body {
 }
 
 @media screen and (max-width: 780px) {
+
+
   .next {
-    float: left;
+    float: right;
+    margin-bottom: 10px;
   }
 
   .content {
