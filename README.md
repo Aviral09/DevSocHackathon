@@ -74,7 +74,7 @@ $ cd DevSocHackathon
 **Naman Ajay Markhedkar** - Login, Filter/Preferences<br />
 **Shlok Sinha** - Navbar, Homepage, Sytling of filters/preferences<br />
 **Varun Gopal** - How To Use<br />
-**Sejal Sarada** - Footer
+**Sejal Sarada** - Footer, ReadMe<br />
 
 ### Social Media
 
