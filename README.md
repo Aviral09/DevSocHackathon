@@ -54,13 +54,13 @@ $ cd DevSocHackathon
 
 ## How to use?
 1. On the homepage top right corner click on "login/signup" button and you will be redirected to login/signup page.
-2. One has to login through BITS Mail using google signin button. The registration input boxes are not funtional as of now.
+2. One has to login through BITS Mail using "Google Signin" button. The registration input boxes are not funtional as of now.
 3. After that one has to click on "Go to preferences" button and you will be directed to Preferences page.
 4. The preferences input boxes are not functional yet and will be implemented in the future.
 
 ## Current Implementations
 1. Frontend of the whole project is done using HTML and CSS.
-2. few inprovements in frontend are made using inline Javascript.
+2. Few improvements in frontend are made using inline Javascript.
 3. Integrated Google Signin button has been implemented.
 
 ## Future Implementations
@@ -69,7 +69,7 @@ $ cd DevSocHackathon
 3. Implementing API to get them connected to online meeting services like Google Meet. 
 
 ## Individual Contribution
-**Aviral Kumar Goel** - Guidance<br />
+**Aviral Kumar Goel** - Guidance and Merging pull request on Github<br />
 **Rohit Kodam** - Why To Use ?, Reviews<br />
 **Naman Ajay Markhedkar** - Login, Filter/Preferences<br />
 **Shlok Sinha** - Navbar, Homepage<br />
