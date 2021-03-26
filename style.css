@@ -234,9 +234,7 @@ nav button:hover {
 /* how to use? (varun) start */
 .howtouse {
   background-image: url(./images/studytogether.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:cover;
 }
 .howtouse_heading {
   padding: 3%;

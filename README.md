@@ -26,7 +26,7 @@ This is the website for Study With Me.
 | --- | --- | --- | --- | --- |
 | Edge | last 3 versions | last 3 versions | last 3 versions | last 3 versions |
 
-## Installation
+## Installationgit 
 
 Follow these steps to install this project directory:
 
