@@ -81,3 +81,5 @@ $ cd DevSocHackathon
 Instagram: <https://www.instagram.com/devsocbitsgoa>
 
 Devsoc's Website: <https://devsoc.club/>
+
+## Screenshots
