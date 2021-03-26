@@ -232,11 +232,9 @@ nav button:hover {
 /* why to use? (rohit) end */
 
 /* how to use? (varun) start */
-.howtouse {
+.howtouse {b b
   background-image: url(./images/studytogether.jpg);
-  background-position: center;
   background-size:cover;
-  background-repeat:no-repeat;
 }
 .howtouse_heading {
   padding: 3%;
