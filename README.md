@@ -11,7 +11,7 @@ Study With Me is a platform for students to come together to learn, interact and
 - [Browser Support 🌐](#browser-support)
 - [Installation 🐣](#installation)
 - [Contribution Guidelines ✒](#contribution-guidelines)
-- [How to use ?](#how-to-use?)
+- [How to use ?](#how-to-use)
 - [Current Implementations](#current-implementations)
 - [Future Implementations](#future-implementations)
 - [Individual Contribution ☕](#individual-contribution)
@@ -58,7 +58,7 @@ $ cd DevSocHackathon
 3. After that one has to click on "Go to preferences" button and you will be directed to Preferences page.
 4. The preferences input boxes are not functional yet and will be implemented in the future.
 
-## Current Implemetations
+## Current Implementations
 1. Frontend of the whole project is done using HTML and CSS.
 2. few inprovements in frontend are made using inline Javascript.
 3. Integrated Google Signin button has been implemented.
