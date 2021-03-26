@@ -19,7 +19,7 @@ Study With Me is a platform for students to come together to learn, interact and
 This is the GitHub repo for Study With Me Website - an online collaborative study portal.
 
 ![image](https://user-images.githubusercontent.com/77959077/112658617-952eee80-8e79-11eb-8a6b-5b79d6c6219f.png)
-![image](https://user-images.githubusercontent.com/77959077/112658562-86e0d280-8e79-11eb-8bef-c244efd9ff0d.png)
+![image](https://user-images.githubusercontent.com/77959077/112661231-4e8ec380-8e7c-11eb-8e73-5c2e39087431.png)
 ![image](https://user-images.githubusercontent.com/77959077/112658754-b8f23480-8e79-11eb-8233-7d71be90c6fd.png)
 
 ## Browser Support
